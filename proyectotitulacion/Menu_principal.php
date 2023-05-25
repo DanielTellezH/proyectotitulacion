@@ -57,8 +57,6 @@
                     <ul id="menu_list">
                         <li class="li-dr media1200px"><a href="Edo.php">Estados</a></li>
                         <li class="li-dr media1200px"><a href="Direccion.php">Direcciones</a></li>
-                        <li class="li-dr media1200px"><a href="Categoria.php">Categorías</a></li>
-                        <li class="li-dr media1200px"><a href="Fabricante.php">Fabricantes</a></li>
                         <li class="li-dr media1200px"><a href="Productos.php">Productos</a></li>
                         <li class="li-dr media1200px" style="border-radius: 5px; background: #6e878d;">
                             <a href="CerrarSesion.php" class="btn btn-danger">Cerrar sesión</a>
