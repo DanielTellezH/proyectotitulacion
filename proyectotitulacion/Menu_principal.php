@@ -80,23 +80,6 @@
                 </div>
                 <?php
             } ?>
-            <!----------------------------------------------->
-            
-            <!-- <div class="nav-list">
-                <ul id="menu_list">
-                    <li class="li-dr media1200px"><a href="Edo.php">Estados</a></li>
-                    <li class="li-dr media1200px"><a href="Direccion.php">Direcciones</a></li>
-                    <li class="li-dr media1200px"><a href="Sucursal.php">Sucursales</a></li>
-                    <li class="li-dr media1200px"><a href="Cargo.php">Cargos</a></li>
-                    <li class="li-dr media1200px"><a href="Empleados.php">Empleados</a></li>
-                    <li class="li-dr media1200px"><a href="Tipo_venta.php">Tipo de ventas</a></li>
-                    <li class="li-dr media1200px"><a href="Fabricante.php">Fabricantes</a></li>
-                    <li class="li-dr media1200px"><a href="Proveedor.php">Proveedores</a></li>
-                    <li class="li-dr media1200px"><a href="Envio.php">Envios</a></li>
-                    <li class="li-dr media1200px"><a href="Modelo.php">Modelos</a></li>
-                    <li class="li-dr media1200px"><a href="CerrarSesion.php" class="btn btn-danger">Cerrar sesión</a></li>
-                </ul>
-            </div> -->
         </div>
     </div>
 </section>
