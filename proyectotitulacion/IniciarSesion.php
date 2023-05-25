@@ -108,7 +108,7 @@
 
 </head>
 <body>
-    <form method="POST">
+    <form method="GET">
         <h1>INICIO DE SESIÓN 
         </h1>
         <h2>(INSEGURO)</h2>
