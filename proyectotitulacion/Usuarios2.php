@@ -569,19 +569,19 @@
         // ============================================================================================
         // Función para escapar las entradas de texto, y solo permitir algunos tipos de caracteres
 
-        // function setInputFilter(id, regex) {
-        //     var input = document.getElementById(id);
-        //     input.addEventListener('input', function() {
-        //         this.value = this.value.replace(regex, '');
-        //     });
-        // }
-        // setInputFilter('usuario_txt', /[^0-9a-zA-Z ]/g);
-        // setInputFilter('nom_usuario_txt', /[^a-zA-Z ]/g);
-        // setInputFilter('apellido_pat_txt', /[^a-zA-Z ]/g);
-        // setInputFilter('apellido_mat_txt', /[^a-zA-Z ]/g);
-        // setInputFilter('correo_txt', /[^a-zA-Z0-9@._-]/g);
-        // setInputFilter('telefono_txt', /[^0-9]/g);
-        // setInputFilter('edad_txt', /[^0-9]/g);
+        function setInputFilter(id, regex) {
+        var input = document.getElementById(id);
+	input.addEventListener('input', function() {
+                this.value = this.value.replace(regex, '');
+            });
+        }
+        setInputFilter('usuario_txt', /[^0-9a-zA-Z ]/g);
+        setInputFilter('nom_usuario_txt', /[^a-zA-Z ]/g);
+        setInputFilter('apellido_pat_txt', /[^a-zA-Z ]/g);
+        setInputFilter('apellido_mat_txt', /[^a-zA-Z ]/g);
+        setInputFilter('correo_txt', /[^a-zA-Z0-9@._-]/g);
+        setInputFilter('telefono_txt', /[^0-9]/g);
+        setInputFilter('edad_txt', /[^0-9]/g);
 
         // ============================================================================================
     </script>
